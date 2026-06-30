@@ -1,2 +1,2 @@
 #!/bin/bash
-curl wttr.in/"$1"
+curl "wttr.in/${1// /+}"
